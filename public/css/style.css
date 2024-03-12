@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+section {
+  margin-left:250px;
+}
+
+.h3, .display-2 {
+  background: linear-gradient(-68deg, #ac32e4,#4801ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: roboto;
+}
+
+/* SİDEBAR */
+.navbar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  margin-left: 0;
+  background-color: #1c1c1c;
+}
+.nav-link {
+  font-size: 1.3em;
+  font-family: roboto;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+ul li a{
+  color: #d9d9d9;
+}
+ul li a:hover{
+  color: #ffffff;
+}
+
+
+/* LİSTE */
+td div a {
+  margin:0;
+  text-decoration: none;
+  font-weight:600;
+  background-color: white;
+  color: #4801ff;
+  padding:7px;
+  border-radius: 10px;
+}
+td div a:hover{
+  color:black;
+}
+
+a.icon {
+  background:none;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  color:white;
+  border-radius: none;
+}
+
+table {
+  width: 80%;
+  margin-top: 50px;
+  border-collapse:collapse;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px black;
+  -moz-box-shadow: 0px 5px 30px black;
+  -webkit-box-shadow: 0px 5px 30px black;
+
+  font-family: roboto;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+
+  background: #7918f2;
+  background: -webkit-linear-gradient(-68deg,#ac32e4,#4801ff);
+  background: -o-linear-gradient(-68deg,#ac32e4,#4801ff);
+  background: -moz-linear-gradient(-68deg,#ac32e4,#4801ff);
+  background: linear-gradient(-68deg,#ac32e4,#4801ff);
+}
+td{
+  padding: 7px 0.8vw 5px;
+}
+tr:hover{
+  background: #8855fe;
+}
+tr.son:hover{
+  background: 0;
+}
+th{
+  background: #8855fe;
+  padding: 10px 0.7vw;
+  border-bottom: 3px solid white;
+}
+th:first-child {
+  border-top-left-radius:10px;
+}
+th:last-child {
+  border-top-right-radius:10px;
+}
+@media screen and (max-width: 1600px){
+  table {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1400px){
+  table {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1200px){
+  table {
+    font-size: 0.6rem;
+  }
+}
+
+/* FORM */
+form {
+  margin-top: ;
+  margin-bottom: ;
+  background: ;
+  padding-top: 25px;
+
+}
+label {
+  font-family: roboto;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #ffffff;
+  opacity: 0.9;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+input[type=text], input[type=date], input[type=email], option, input[type=text]:focus, input[type=date]:focus, input[type=email]:focus {
+  background: #ECF0F1;
+  border: 0;
+  border-radius: 10px;
+  font-family: bahnschrift;
+}
